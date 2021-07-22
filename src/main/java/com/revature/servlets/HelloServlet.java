@@ -19,7 +19,7 @@ public class HelloServlet extends HttpServlet {
 		
 		//Responses come with a method to create a Print Writer to write the body of the response. 
 		PrintWriter pw=resp.getWriter();
-		pw.print("<h1>Hello from your doGet method.</h1>");
+		pw.print("<h1>Hello from Jenkins' doGet method.</h1>");
 	}
 
 }
