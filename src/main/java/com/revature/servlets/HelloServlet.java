@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 public class HelloServlet extends HttpServlet {
 	
 	//To have functionality I need to override the service method (bad pratice) or at least one "do" method. 
+	//change to comment!
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 		String URI = req.getRequestURI();
